@@ -1,0 +1,26 @@
+# Configuration file for NeuralPrediction project
+
+# Data paths
+data:
+  # Path to the dataset file
+  # For the sample dataset in the repository, use: "data/sample_dataset_somata.csv"
+  # For the full dataset locally, update this path to your local file location
+  dataset_path: "data/sample_dataset_somata.csv"
+  
+# Analysis parameters
+analysis:
+  # Threshold for spike detection (absolute value)
+  spike_threshold: 50.0
+  
+  # Time window for analysis (in seconds, null for full dataset)
+  time_window_start: null
+  time_window_end: null
+  
+  # Channels to analyze (empty list means analyze all)
+  channels_to_analyze: []
+  
+# Plotting parameters
+plotting:
+  figure_size: [12, 8]
+  dpi: 100
+  style: "seaborn-v0_8-darkgrid"
