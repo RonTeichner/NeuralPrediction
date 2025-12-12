@@ -13,7 +13,7 @@ os.makedirs(output_dir, exist_ok=True)
 
 # Read the full CSV file
 print("Reading full dataset...")
-df = pd.read_csv(input_path, sep='\t')
+df = pd.read_csv(input_path)#, sep='\t')
 
 print(f"Full dataset shape: {df.shape}")
 print(f"Unique experiments: {df['experiment'].nunique()}")
