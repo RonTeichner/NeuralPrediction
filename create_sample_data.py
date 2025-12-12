@@ -52,5 +52,5 @@ for exp in sample_df['experiment'].unique():
     print(f"  Experiment {exp}: channels {exp_channels}")
 
 # Save to CSV
-sample_df.to_csv(output_path, sep='\t', index=False)
+sample_df.to_csv(output_path, index=False)#, sep='\t', index=False)
 print(f"\nSample dataset saved to: {output_path}")
