@@ -10,7 +10,7 @@ data:
 # Analysis parameters
 analysis:
   # Threshold for spike detection (absolute value)
-  spike_threshold: 50.0
+  spike_threshold: -1000.0
   
   # Time window for analysis (in seconds, null for full dataset)
   time_window_start: null
