@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 
 # Read:
 BASE_PATH = ""
-DATASET_DIR_PATH = os.path.join(BASE_PATH, "spikes_and_metrics_dfs")
+DATASET_DIR_PATH = "/Users/ron.teichner/Library/CloudStorage/OneDrive-Technion/AmitShmidov/regressions_comparisons/spikes_and_metrics_dfs/"
 DATASET_FILE = "/dataset_somata.csv"
 
 class CacheReader:
