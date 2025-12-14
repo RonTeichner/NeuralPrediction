@@ -1,0 +1,30 @@
+{"config":
+    [
+        {
+            "path2ExpWithinDropbox": "Data/recordings/rec_18628_Apr30_2023/",
+            "nameOf_h5": "Trace_20230530_15_57_30_Spontaneous.raw.h5",
+            "path2metrics_data_xlsxWithinDropbox": "Metrics/18628_Apr30_3023_metrics/20230530_163402/excel/metrics_data.xlsx",
+            "nConfigurations": 1,
+            "onlyVisit": 0,
+	        "learnActivity": 1,
+            "enableLearnActivityParallelRun": 0,
+    	    "use_hpfAvg": 1,
+            "process_hpf": 1,
+            "processWindow": 20e-3,
+    	    "processType": "neuronIsRef",
+            "stimuliElectrodeNo": -1,
+            "Neuron": 5,
+            "processElectrodes": "all",
+            "specificProcessedElectrodeList": [],
+            "cropStartingAt": 0e-3,
+            "enablePlotPerElectrode": 1,
+            "trajectoriesAndExit": 0,
+            "save_mySpikes": 0,
+            "saveImages": 0,
+            "processElectrode_enableFigures": 1,
+            "processWindow_readRaw": 9e-3,
+            "processType_readRaw": "processNeuronAndAllElectrodes",
+            "nSpikesThr": 0.0
+        }
+    ]
+}

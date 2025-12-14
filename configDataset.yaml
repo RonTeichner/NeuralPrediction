@@ -5,6 +5,6 @@ data:
   # Path to the dataset file
   # For the sample dataset in the repository, use: "data/sample_dataset_somata.csv"
   # For the full dataset locally, update this path to your local file location
-  dataset_path: "data/sample_dataset_somata.csv"
-  #dataset_path: "/Users/ron.teichner/Library/CloudStorage/OneDrive-Technion/AmitShmidov/regressions_comparisons/spikes_and_metrics_dfs/dataset_somata.csv"
+  #dataset_path: "data/sample_dataset_somata.csv"
+  dataset_path: "/Users/ron.teichner/Library/CloudStorage/OneDrive-Technion/AmitShmidov/regressions_comparisons/spikes_and_metrics_dfs/dataset_somata.csv"
   
